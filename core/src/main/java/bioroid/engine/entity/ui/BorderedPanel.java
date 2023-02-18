@@ -40,32 +40,32 @@ public class BorderedPanel extends Entity {
 	g.drawTexture(horizontalBorder, getX(), (getY() + getHeight()) - borderThickness, getWidth(), borderThickness);
 
 	// left border
-	g.rotate(getX(), getY(), 90);
+	g.rotate(90, getX(), getY());
 	g.drawTexture(horizontalBorder, getX(), getY() - borderThickness, getHeight(), borderThickness);
-	g.rotate(getX(), getY(), -90);
+	g.rotate(-90, getX(), getY());
 
 	// right border
-	g.rotate(getX(), getY(), 90);
+	g.rotate(90, getX(), getY());
 	g.drawTexture(horizontalBorder, getX(), (getY() - getWidth()), getHeight(), borderThickness);
-	g.rotate(getX(), getY(), -90);
+	g.rotate(-90, getX(), getY());
 
 	// top left corner
 	g.drawTexture(borderTopLeft, getX(), getY());
 
 	// top right corner
-	g.rotate(getX(), getY(), 90);
+	g.rotate(90, getX(), getY());
 	g.drawTexture(borderTopLeft, getX(), getY() - getWidth());
-	g.rotate(getX(), getY(), -90);
+	g.rotate(-90, getX(), getY());
 
 	// bottom left corner
-	g.rotate(getX(), getY(), -90);
+	g.rotate(-90, getX(), getY());
 	g.drawTexture(borderTopLeft, getX() - getHeight(), getY());
-	g.rotate(getX(), getY(), 90);
+	g.rotate(90, getX(), getY());
 
 	// bottom right corner
-	g.rotate(getX(), getY(), 180);
+	g.rotate(180, getX(), getY());
 	g.drawTexture(borderTopLeft, getX() - getWidth(), getY() - getHeight());
-	g.rotate(getX(), getY(), -180);
+	g.rotate(-180, getX(), getY());
     }
 
     @Override

@@ -36,21 +36,21 @@ public class BackgroundPanel extends BorderedPanel {
 	super.renderEntitySpecific(g);
 	if (GameHolder.gameMode == GameMode.MAIN_GAME && EntityManager.getCharacterPanel().isActive()) {
 	    // center border
-	    g.rotate(getX(), getY(), 90);
+	    g.rotate(90, getX(), getY());
 	    g.drawTexture(horizontalBorder, getX(), ((getY() - getWidth()) + charPanelXSize) - borderThickness,
 		    getHeight(), borderThickness);
-	    g.rotate(getX(), getY(), -90);
+	    g.rotate(-90, getX(), getY());
 
 	    // top tee
 	    g.drawTexture(borderTee,
 		    getX() + ((getWidth() - charPanelXSize) + (borderThickness / 2)) - halfTeeThickness, getY());
 
 	    // bottom tee
-	    g.rotate(getX(), getY(), 180);
+	    g.rotate(180, getX(), getY());
 	    g.drawTexture(borderTee,
 		    (((getX() - getWidth()) + charPanelXSize) - (borderThickness / 2)) - halfTeeThickness,
 		    getY() - getHeight());
-	    g.rotate(getX(), getY(), -180);
+	    g.rotate(-180, getX(), getY());
 	}
     }
 
