@@ -52,7 +52,8 @@ public class StringEntity extends Entity {
 
     @Override
     protected void renderEntitySpecific(Graphics g) {
-
+	super.renderEntitySpecific(g);
+	g.drawCircle(1, 1, 0);// Hack! Otherwise Font draw complains about sprite batch
 	int rowNo = 0;
 	for (String s : values) {
 	    Fonts.GREEN_FONT.draw(g, s, getX(), getY() + (rowNo * lineHeight));
