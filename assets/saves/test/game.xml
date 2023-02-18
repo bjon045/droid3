@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<savedGame>
+    <activeCharacter>0</activeCharacter>
+    <currentMapCode>MAP_START</currentMapCode>
+    <playerCharacter>
+        <currentHP>50</currentHP>
+        <location>
+            <x>13</x>
+            <y>29</y>
+        </location>
+        <maxHP>55</maxHP>
+        <name>Motor Policy</name>
+        <spriteName>rocket.png</spriteName>
+    </playerCharacter>
+    <playerCharacter>
+        <currentHP>46</currentHP>
+        <location>
+            <x>12</x>
+            <y>29</y>
+        </location>
+        <maxHP>46</maxHP>
+        <name>Home Policy</name>
+        <spriteName>bald_man_pistol.png</spriteName>
+    </playerCharacter>
+    <playerCharacter>
+        <currentHP>30</currentHP>
+        <location>
+            <x>11</x>
+            <y>29</y>
+        </location>
+        <maxHP>33</maxHP>
+        <name>Contents Policy</name>
+        <spriteName>woman_pistol.png</spriteName>
+    </playerCharacter>
+    <playerCharacter>
+        <currentHP>27</currentHP>
+        <location>
+            <x>6</x>
+            <y>28</y>
+        </location>
+        <maxHP>27</maxHP>
+        <name>Boat Policy</name>
+        <spriteName>woman_pistol2.png</spriteName>
+    </playerCharacter>
+    <playerCharacter>
+        <currentHP>38</currentHP>
+        <location>
+            <x>7</x>
+            <y>28</y>
+        </location>
+        <maxHP>38</maxHP>
+        <name>Motorcycle Policy</name>
+        <spriteName>rifle1.png</spriteName>
+    </playerCharacter>
+    <playerCharacter>
+        <currentHP>5</currentHP>
+        <location>
+            <x>8</x>
+            <y>28</y>
+        </location>
+        <maxHP>40</maxHP>
+        <name>Caravan Policy</name>
+        <spriteName>monoblade.png</spriteName>
+    </playerCharacter>
+</savedGame>

@@ -1,0 +1,6 @@
+<gameMap>
+	<code>MAP_START</code>
+	<name>Start test map</name>
+	<description></description>
+	<tmxFile>testmap.tmx</tmxFile>
+</gameMap>
