@@ -9,6 +9,8 @@ import bioroid.BioroidGame;
 public class DesktopLauncher {
     public static void main(String[] arg) {
 	DesktopMini2DxConfig config = new DesktopMini2DxConfig(BioroidGame.GAME_IDENTIFIER);
+	config.height = 800;
+	config.width = 1200;
 	config.vSyncEnabled = true;
 	new DesktopMini2DxGame(new BioroidGame(), config);
     }

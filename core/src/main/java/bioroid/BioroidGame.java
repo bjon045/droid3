@@ -47,6 +47,11 @@ public class BioroidGame extends BasicGame {
     }
 
     @Override
+    public void onResize(int width, int height) {
+	EntityManager.resizeEntities();
+    }
+
+    @Override
     public void interpolate(float alpha) {
 	// TODO Auto-generated method stub
 
